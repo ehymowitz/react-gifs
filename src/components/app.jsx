@@ -47,6 +47,7 @@ class App extends Component {
           </div>
         </div>
         <div className="right-scene">
+          <h1>Search Results!</h1>
           <GifList gifs={this.state.gifs} selectedGif={this.selectedGif}></GifList>
         </div>
       </div>
